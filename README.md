@@ -28,6 +28,9 @@ The dataset used for this analysis contains historical Cyclistic bike trip data.
 Dataset source:
 Divvy Trip Data (provided by Motivate International Inc.)
 
+Public dataset:
+https://divvy-tripdata.s3.amazonaws.com/index.html
+
 Data includes:
 
 - Ride ID
@@ -42,16 +45,31 @@ Data includes:
 
 - User type (member or casual)
 
-Public dataset:
-https://divvy-tripdata.s3.amazonaws.com/index.html
+
+### Prepare (Data Collection)
+
+| Column                | Description                   |
+| --------------------- | ----------------------------- |
+| ride_id               | Unique trip ID                |
+| rideable_type         | Type of bike                  |
+| started_at            | Trip start time               |
+| ended_at              | Trip end time                 |
+| start_station_name    | Starting station              |
+| end_station_name      | Ending station                |
+| start_lat / start_lng | Start coordinates             |
+| end_lat / end_lng     | End coordinates               |
+| member_casual         | Rider type (member or casual) |
+
+
+
 
 ### Tools Used
 
 - SQL – Data cleaning and transformation
 
-- Excel / Google Sheets – Initial exploration
+- Excel – Initial exploration
 
-- R / Python (optional depending on your project) – Data analysis
+- R – Data analysis
 
 - Tableau / Power BI – Data visualization
 
@@ -70,15 +88,22 @@ Steps taken to prepare the dataset:
 
 4. Created additional fields:
 
-- Ride length
+- Ride length (ride_length: ride_length = ended_at - started_at)
 
-- Day of week
+- Day of week (day_of_week: day_of_week = weekday(started_at)
 
-- Month
+- Month ????
 
 5. Filtered out rides with negative or unrealistic durations
 
 6. Standardized column formats across all monthly datasets
+
+
+3. Process (Data Cleaning)
+
+
+
+
 
 
 
