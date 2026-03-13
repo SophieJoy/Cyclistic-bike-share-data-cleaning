@@ -108,8 +108,6 @@ Check:
   AND end_station_id IS NOT NULL;
   
 
-- Remove duplicate ride IDs
-
 3. Create Ride Length Column
    Goal: Calculate ride duration
 - Ride length (ride_length: ride_length = ended_at - started_at)
