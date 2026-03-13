@@ -96,38 +96,21 @@ Check:
 - Column names
 
 - Data types
+
+- Duplicate records
   
 - Remove trips with missing (null) values
-  
-  SELECT *
-  
-  FROM [2025-tripdata].[dbo].[year_ride_2025_combinedTable]
-  
-	WHERE start_station_id IS NOT NULL
 
-  AND end_station_id IS NOT NULL;
-  
+- Check empty values
 
-3. Create Ride Length Column
-   Goal: Calculate ride duration
-- Ride length (ride_length: ride_length = ended_at - started_at)
+
+3. Create additional fields 
+   - Ride Length Column (in mins)
+   - Day of Week Column
 
 
 
-8. Created additional fields:
 
-- Ride length (ride_length: ride_length = ended_at - started_at)
-
-- Day of week (day_of_week: day_of_week = weekday(started_at)
-
-- Month ????
-
-5. Filtered out rides with negative or unrealistic durations
-
-6. Standardized column formats across all monthly datasets
-
-
-3. Process (Data Cleaning)
 
 
 
