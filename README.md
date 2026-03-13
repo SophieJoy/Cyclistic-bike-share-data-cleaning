@@ -98,11 +98,10 @@ Check:
 - Data types
 
 - Duplicate records
+
+- Empty values
   
 - Remove trips with missing (null) values
-
-- Check empty values
-
 
 3. Create additional fields 
    - Ride Length Column (in mins)
