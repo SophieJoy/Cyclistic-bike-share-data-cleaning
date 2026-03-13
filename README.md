@@ -89,13 +89,34 @@ Steps taken to prepare the dataset:
 
 1. Combined all the monthly tables in one table. 
 
-2. Removed duplicate ride IDs
+2. Data inspection
+   
+Check:
 
-3. Removed rows with missing critical values
+- Column names
 
-4. Converted date/time columns into proper formats
+- Data types
+  
+- Remove trips with missing (null) values
+  
+  SELECT *
+  
+  FROM [2025-tripdata].[dbo].[year_ride_2025_combinedTable]
+  
+	WHERE start_station_id IS NOT NULL
 
-5. Created additional fields:
+  AND end_station_id IS NOT NULL;
+  
+
+- Remove duplicate ride IDs
+
+3. Create Ride Length Column
+   Goal: Calculate ride duration
+- Ride length (ride_length: ride_length = ended_at - started_at)
+
+
+
+8. Created additional fields:
 
 - Ride length (ride_length: ride_length = ended_at - started_at)
 
