@@ -1,3 +1,4 @@
+-- Combine all 12 monthly datasets (Jan-Dec 2025) into one table
 
 SELECT 
     ride_id,
