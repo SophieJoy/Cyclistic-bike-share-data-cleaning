@@ -57,11 +57,12 @@ Steps taken to prepare the dataset:
 
 - Empty values
   
-- Remove trips with missing (null) values
+- Null values
 
 3. Create additional fields 
    - Ride Length Column (in mins)
    - Day of Week Column
+   - Ride month column
 
 
 
