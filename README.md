@@ -61,8 +61,14 @@ Steps taken to prepare the dataset:
 
 3. Create additional fields 
    - Ride Length Column (in mins)
+     <img width="1476" height="401" alt="image" src="https://github.com/user-attachments/assets/058a4151-5789-4469-b60d-79ad6f5ded98" />
+
    - Day of Week Column
+     <img width="1409" height="362" alt="image" src="https://github.com/user-attachments/assets/e0ce5f79-c720-4d78-ab20-f103dee88ad9" />
+
    - Ride month column
+     <img width="1481" height="380" alt="image" src="https://github.com/user-attachments/assets/2d4d36e6-2152-4171-a7d9-6f90c3545d43" />
+
 
 
 
