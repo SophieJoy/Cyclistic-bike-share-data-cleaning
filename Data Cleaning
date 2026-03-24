@@ -1,8 +1,0 @@
-
-- Remove trips with missing (null) values
-
-  SELECT *
-  FROM [2025-tripdata].[dbo].[year_ride_2025_combinedTable]
-	WHERE start_station_id IS NOT NULL
-  AND end_station_id IS NOT NULL;
-  
