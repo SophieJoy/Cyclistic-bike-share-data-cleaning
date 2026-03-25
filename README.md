@@ -1,5 +1,16 @@
 # Cyclistic Bike-Share Case Study
 
+### Scenario
+
+Cyclistic is a Chicago-based bike-share company with a large fleet of bicycles and an extensive network of docking stations. The company offers flexible pricing options, including single-ride passes, day passes, and annual memberships.
+
+The marketing team has identified a key growth opportunity: increasing the number of annual members, who are significantly more profitable than casual riders. While casual riders already use Cyclistic services, their usage behavior differs from that of annual members.
+
+The objective of this analysis is to examine historical trip data to understand how casual riders and members use Cyclistic bikes differently. Insights from this analysis will support the development of targeted marketing strategies aimed at converting casual riders into annual members.
+
+Key stakeholders include the Director of Marketing, the marketing analytics team, and the executive leadership team, who will evaluate the final recommendations.
+
+
 ## Data Cleaning with SQL
 
 ### Business Task
